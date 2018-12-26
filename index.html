@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Video & Audio Cam Recorder</title>
+  	<link rel="stylesheet" href="style.css">
+  	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+</head>
+ <body class="container">
+
+
+    <div class="recrd">
+    	<h2>Live Cam</h2>
+  	<div id="video-container">
+  	
+ 	 	<video id="preview" width="400" height="300" autoplay muted></video>
+        </div>
+        <div id="startButton" class="button"> Start </div>
+        <div id="stopButton" class="button"> Stop </div>
+    </div>
+
+    <div class="recrdv">
+    	<h2>Recording</h2>
+  	<div id="video-container">
+  		<video id="recording" width="400" height="300" controls></video>
+  	</div>
+  	<a id="downloadButton" class="button"> Download </a>
+    </div>
+    <div class="bottom">
+ 	 <pre id="log"></pre>
+    </div>
+    <div class="line space"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
